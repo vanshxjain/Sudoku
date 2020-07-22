@@ -148,9 +148,9 @@ def main():
 	if level == 1:
 		level = 10
 	elif level == 2:
-		level = 15
-	elif level == 3:
 		level = 20
+	elif level == 3:
+		level = 30
 	print('Generating...')
 	print()
 	fillBoard(board)
